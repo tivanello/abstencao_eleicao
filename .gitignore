@@ -1,0 +1,10 @@
+@"
+venv/
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+.env
+"@ | Out-File -Encoding utf8 .gitignore
+
